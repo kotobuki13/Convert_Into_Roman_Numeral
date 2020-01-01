@@ -40,11 +40,19 @@ function writeRomanNum(numbers) {
       result.push(letters[i]);
     }
   }
+
+  return;
+}
+
+function printResult() {
+  console.log(result.join(''));
+
+  return;
 }
 
 function mainProgram(value) {
   devideNumber(value);
-  console.log(result.join(''));
+  printResult();
 
   return;
 }
